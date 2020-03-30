@@ -1,0 +1,9 @@
+<p>home works!</p>
+<h1 [hidden]="!isValid">Hell World</h1>
+<div>
+    <ul>
+        <li *ngFor="let name of productlist; let rowIndex= index">
+            <h1>{{name}}{{rowIndex}}</h1>
+        </li>
+    </ul>
+</div>
